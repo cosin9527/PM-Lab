@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# 运行数据（仓库不应包含任何知识库数据与索引）
+*.db
+*.db-wal
+*.db-shm
+jieba.cache
+wenqu_tmp/
+
+# macOS
+.DS_Store
